@@ -1,0 +1,17 @@
+[project]
+name = "note2tex"
+version = "0.0.1"
+description = "Convert assignment files + ipynb into LaTeX using RAG + Bedrock Llama"
+requires-python = ">=3.10"
+authors = [{name = "Saksham"}]
+
+dependencies = [
+    "faiss-cpu",
+    "sentence-transformers",
+    "boto3",
+    "nougat-ocr",
+    "pypdf",
+]
+
+[project.scripts]
+note2tex = "note2tex.cli:main"

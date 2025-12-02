@@ -1,0 +1,15 @@
+pyproject.toml
+setup.cfg
+note2tex/__init__.py
+note2tex/bedrock_llm.py
+note2tex/cli.py
+note2tex/ipynb_parser.py
+note2tex/latex_generator.py
+note2tex/ocr.py
+note2tex/rag.py
+note2tex.egg-info/PKG-INFO
+note2tex.egg-info/SOURCES.txt
+note2tex.egg-info/dependency_links.txt
+note2tex.egg-info/entry_points.txt
+note2tex.egg-info/requires.txt
+note2tex.egg-info/top_level.txt

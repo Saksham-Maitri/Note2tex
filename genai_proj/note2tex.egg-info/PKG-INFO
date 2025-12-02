@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: note2tex
+Version: 0.0.1
+Summary: Convert assignment files + ipynb into LaTeX using RAG + Bedrock Llama
+Author: Saksham
+Requires-Python: >=3.10
+Requires-Dist: faiss-cpu
+Requires-Dist: sentence-transformers
+Requires-Dist: boto3
+Requires-Dist: nougat-ocr
+Requires-Dist: pypdf

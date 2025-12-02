@@ -1,0 +1,60 @@
+% =============================
+% Standard Preamble for note2tex
+% =============================
+\documentclass[12pt]{article}
+
+% --- Page Layout ---
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+
+% --- Math Packages ---
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{bm}
+\usepackage{mathtools}
+
+% --- DEFINITIONS ---
+\DeclarePairedDelimiter{\norm}{\lVert}{\rVert} 
+\DeclareMathOperator{\diag}{diag}
+
+% --- Graphics & Floats ---
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage{wrapfig}
+\usepackage{caption} 
+
+% --- ALGORITHMS (THIS WAS MISSING) ---
+\usepackage{algorithm}
+\usepackage{algorithmic} % This defines \State, \Require, \Ensure
+\usepackage{listings}
+
+% --- Styling & Colors ---
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+
+% Custom Colors
+\definecolor{navyblue}{RGB}{0,0,128}
+\definecolor{softblue}{RGB}{245,248,255}
+\definecolor{softborder}{RGB}{200,200,220}
+
+% --- Section Box Style ---
+\tcbset{
+  sectionbox/.style={
+    enhanced,
+    breakable,
+    colback=softblue,
+    colframe=softborder,
+    arc=4pt,
+    boxrule=0.8pt,
+    left=10pt, right=10pt, top=10pt, bottom=10pt,
+    parbox=false,
+    before skip=10pt,
+    after skip=10pt
+  }
+}
+
+\begin{document}
+% ... body ...
+\end{document}

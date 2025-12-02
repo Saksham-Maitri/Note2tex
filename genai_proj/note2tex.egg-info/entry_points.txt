@@ -1,0 +1,2 @@
+[console_scripts]
+note2tex = note2tex.cli:main

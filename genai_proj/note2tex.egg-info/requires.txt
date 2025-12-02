@@ -1,0 +1,5 @@
+faiss-cpu
+sentence-transformers
+boto3
+nougat-ocr
+pypdf
