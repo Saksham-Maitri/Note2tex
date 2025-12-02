@@ -1,6 +1,6 @@
 # Note2tex
 
-# -> genai_proj
+# 📚 genai_proj
 
 ## ⚙️ Environment Setup
 
@@ -24,3 +24,4 @@ note2tex --file assignment.pdf --ipynb main.ipynb \
          --max_refines 2 \ #<-- number of validator-refiner pass
          --wait_between_calls 2 #<-- time between throtle for api requests for bedrock
 ```
+ This will generate the final .tex file
