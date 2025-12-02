@@ -1,6 +1,6 @@
-# Note2tex
+# Note2tex 🗣️
 
-# 📚 genai_proj
+# 📚 genai_proj (Latex report generator)
 
 ## ⚙️ Environment Setup
 
